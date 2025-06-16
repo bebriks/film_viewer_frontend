@@ -1,0 +1,24 @@
+/* 
+.input {
+    position: relative;
+    top: -50px;
+    transition: transform 2s ease-in;
+}
+.input_active {
+    position: relative;
+    top: 23px;
+    transition: transform 2s ease-in;
+} */
+
+.input {
+    position: relative;
+    top: -50px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    max-width: 70%;
+}
+  
+.input_active {
+    top: 23px;
+    opacity: 1;
+}
